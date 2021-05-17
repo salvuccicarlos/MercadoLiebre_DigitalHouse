@@ -293,7 +293,7 @@ footer section{
     width: 85%;
 }
 
-@media (max-width: 360px){
+@media (max-width: 480px){
     .descripciones{
         display: none;
     }
@@ -365,7 +365,7 @@ footer section{
     }
 }
 
-@media (min-width: 361px){
+@media (min-width: 481px){
 
     .logo{
         width: 25%;
