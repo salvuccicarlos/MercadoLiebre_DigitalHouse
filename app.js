@@ -13,6 +13,6 @@ app.get('/', (req,res) => {
 });
 
 /* Server */
-app.listen(3005, () => console.log('Servidor corriendo en puerto 3005'));
+app.listen(process.env.PORT || 3005, () => console.log('Servidor corriendo en puerto 3005'));
 
 
