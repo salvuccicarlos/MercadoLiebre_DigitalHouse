@@ -1,0 +1,500 @@
+*{
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 33%;
+    padding-top: 15px;
+}
+
+header{
+    background-color: #EAC926;
+    font-weight: 300;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+main{
+    width: 90%;
+    background-color: #ebebeb;
+    margin: auto;
+}
+
+.icono_search{
+    margin-left: 5px;
+}
+
+article{
+    background-color: #FCFCFC;
+}
+
+footer{
+    background-color: #FCFCFC;
+    border-top: solid 30px #FCFCFC;
+}
+
+.links_menu_hamburguesa1{
+ 
+    justify-content: flex-start;
+    flex: 50%;
+}
+
+.links_menu_hamburguesa2{
+  
+    justify-content: flex-end;
+    flex: 50%;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.compra_en_cuotas{
+    color: black;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li a{
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+}
+
+.titulares{
+    background-color: #ebebeb;
+    font-size: 24px;
+    color: #666;
+}
+
+.precio{
+    font-size: 18px;
+    color: black;
+    margin: 1px;
+}
+
+.descuento{
+    font-size: 18px;
+    color: #39b54a;
+    margin: 1px;
+}
+
+.descripciones{
+    font-size: 16px;
+    margin-top: 15px;
+    opacity: 0;
+    transition: all 650ms;
+}
+
+.producto:hover .descripciones{
+    opacity: 1;
+}
+
+.producto:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.producto:hover .truck{
+    transform: rotate(-90deg);
+    transition: transform 1s;
+}
+
+footer section{
+    text-align: center;
+    font-size: 12;
+}
+
+.titulo_footer{
+    color: #666;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 1px;
+}
+
+.info_titulo{
+    margin: 1px;
+    color: #666;
+}
+
+.copyright{
+    color: #666;
+    margin-top: 40px;
+}
+
+.iconos_titulos{
+    margin-top: 55px;
+    color: #1259c3;
+    font-size: 2em;
+    line-height: 10px;
+}
+
+.menu_hamburguesa i {
+    padding:8px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #1259c3;
+    color: white;
+}
+
+.menu_hamburguesa2 {
+    padding-bottom:8px;
+    text-align: left;
+    border-radius: 8px;
+}
+
+.menu_hamburguesa {
+    text-align: center;
+    border-bottom: solid #EAC926 15px;
+}
+
+.producto{
+    margin: 15px;
+    color: #666;
+}
+
+.image{
+    border-bottom: solid 2px #ebebeb;
+}
+
+.truck{
+    color: #39b54a;
+    border: 1px solid #39b54a;
+    border-radius: 50%;
+    width: 38px;
+    font-size: 14px;
+    padding: 10px;
+    position: relative;
+    left: 160px;
+    bottom: 30px;
+}
+
+.info_de_productos{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.buscador{
+    margin-left: 20px;
+}
+
+.main-login{
+    display: flex;
+    justify-content: center;
+    text-align: center;  
+}
+
+.main-register{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.formulario-login{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+    justify-content: center;
+}
+
+.campo-login{
+    height: 45px;
+}
+
+.formulario-registro{
+    text-align: center;
+    flex-direction: column;
+    width: 40%;
+}
+
+.campo1{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border-radius: 10px;
+}
+
+.buttons-register{
+    background-color: #1259c3;
+    border-radius: 5px;
+    color: white;
+    width: 86%;
+    transition: all 450ms;
+}
+
+.buttons-register:hover{
+    background-color: #0022AA;
+}
+
+.opciones-usuario1{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.opciones-perfil-usuario{
+    margin: 5px 25px;
+}
+
+.opciones-usuario2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.dentro-opciones-usuario{
+    margin: 15px 47px;
+}
+
+.titulo-register{
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    text-align: justify;
+    margin: 15px 35px;
+}
+
+.label-input{
+    background: white;
+    color: white;
+    margin: 0;
+    border-radius: 5px;
+    border: 1px white solid;
+    padding: 8px 10px;
+    font-size: 80%;
+}
+
+.input-datos{
+    align-self: center;
+    width: 80%;
+    border: 1px white solid;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;  
+}
+
+.input-fecha{
+    background: white;
+    color: #666;
+    margin: 0;
+    border-radius: 5px;
+    border: 1px white solid;
+    padding: 8px 10px;
+    font-size: 70%;
+    width: 85%;
+}
+
+@media (max-width: 360px){
+    .descripciones{
+        display: none;
+    }
+
+    .links_menu1{
+        display: none;
+    }
+
+    .links_menu2{
+        display: none;
+    }
+
+    .encabezado1{
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        justify-content: space-around;
+        align-items: center;
+        border-top: 10px solid #EAC926;
+    }
+
+    .logo{
+        width: 30%;
+    }
+
+    .buscar{
+        display: flex;
+        flex-wrap: nowrap;
+        align-self: center;
+        justify-content: space-between;
+        background: white;
+        color: black;
+        margin: 0;
+        border-radius: 5px;
+        border: 1px white solid;
+        padding: 5px 10px;
+        width: 100%;
+        max-width: 100%;
+        font-size: 50%;
+    }
+
+    .buscador{
+        align-self: center;
+        width: 50%;
+        border: 1px white solid;
+        justify-content: space-between;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .icono_search{
+        width: 30px;
+        background-color: white;
+        border: 1px white solid;
+        position: relative;
+        left: 10px
+    }
+
+    .ultima_visita{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    
+    .seccion_ofertas{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+}
+
+@media (min-width: 361px){
+
+    .logo{
+        width: 25%;
+    }
+
+    .menu_hamburguesa {
+        display: none;
+    }
+
+    .producto{
+        align-self: stretch;
+        width: 220px;
+    }
+
+    .ultima_visita{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    
+    .seccion_ofertas{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    
+    .precio_descuento{
+        display: flex;
+    }
+    
+    .encabezado1{
+        display: flex;
+        height: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .encabezado2{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .links_menu1{
+        display: flex;
+        justify-content: flex-start;
+        flex: 50%;
+    }
+    
+    .menu1{
+        margin: 0px 15px;
+    }
+    
+    .links_menu2{
+        display: flex;
+        justify-content: flex-end;
+        flex: 50%;
+    }
+    
+    .menu2{
+        margin: 0px 15px;
+    }
+    .precio{
+        flex: 30%
+    }
+    
+    .descuento{
+        flex: 70%;
+    }
+
+    .buscar{
+        display: flex;
+        flex-wrap: nowrap;
+        align-self: center;
+        justify-content: space-between;
+        background: white;
+        color: black;
+        margin: 0;
+        border-radius: 5px;
+        border: 1px white solid;
+        padding: 5px 10px;
+        width: 100%;
+        font-size: 80%;
+    }
+
+    .buscador{
+        align-self: center;
+        width: 100%;
+        border: 1px white solid;
+        justify-content: space-between;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .buscadorPpal{
+        flex-grow: 0.4;
+    }
+
+    .icono_search{
+        width: 30px;
+        background-color: white;
+        border: 1px white solid;
+        position: relative;
+        left: 10px
+    }
+}
+
+@media (min-width: 769px){
+    .logo{
+        width: 10%;
+    }
+
+    .menu_hamburguesa {
+        display: none;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .items-footer{
+        transition: all 450ms;
+    }
+
+    .items-footer:hover .iconos_titulos{
+        color: #0022AA;
+    }
+}
